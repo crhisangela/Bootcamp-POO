@@ -26,4 +26,19 @@
 ### ⚡ Instância: 
   Uma instância de uma classe é um novo objeto criado dessa classe, com o operador new. Instanciar uma classe é criar um novo objeto do mesmo tipo dessa classe. Uma classe somente poderá ser utilizada após ser instanciada.
 
+### ⚡ forEach():
+   O método forEach() executará uma função para cada elemento presente em um array.
+``public class ExemploForEach {
+
+    public static void main(String[] args) {
+
+        List<Integer> itens = Arrays.asList(15, 11, 13, 9, 35);
+
+    itens.forEach(System.out::println);
+    }}
+
+### ⚡ Map():
+  O map() executa uma função de transformação em todos os elementos de uma determinada lista , e retorna uma nova lista como resultado.
+  `[50, 60, 70].map(value => value * 1.1)
+// [55, 66, 77]`
 
